@@ -34,7 +34,11 @@ public class Seq {
 	private static final GoRefQueue goRefQueue = new GoRefQueue();
 
 	static {
-		System.loadLibrary("gojni");
+		try {
+			System.loadLibrary("gojni");
+		} catch (Throwable e) {
+			Log.e("Go", "loadLibrary failed", e);
+		}
 		init();
 		Universe.touch();
 	}

@@ -54,7 +54,7 @@ public class GoNativeActivity extends NativeActivity {
 			}
 			String libName = ai.metaData.getString("android.app.lib_name");
 			System.loadLibrary(libName);
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			Log.e("Go", "loadLibrary failed", e);
 		}
 	}
