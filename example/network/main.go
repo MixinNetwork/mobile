@@ -43,11 +43,11 @@ package main
 import (
 	"net/http"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/gl"
+	"github.com/mixinnetwork/mobile/app"
+	"github.com/mixinnetwork/mobile/event/lifecycle"
+	"github.com/mixinnetwork/mobile/event/paint"
+	"github.com/mixinnetwork/mobile/event/size"
+	"github.com/mixinnetwork/mobile/gl"
 )
 
 func main() {

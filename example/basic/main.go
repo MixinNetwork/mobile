@@ -32,15 +32,15 @@ import (
 	"encoding/binary"
 	"log"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/exp/app/debug"
-	"golang.org/x/mobile/exp/f32"
-	"golang.org/x/mobile/exp/gl/glutil"
-	"golang.org/x/mobile/gl"
+	"github.com/mixinnetwork/mobile/app"
+	"github.com/mixinnetwork/mobile/event/lifecycle"
+	"github.com/mixinnetwork/mobile/event/paint"
+	"github.com/mixinnetwork/mobile/event/size"
+	"github.com/mixinnetwork/mobile/event/touch"
+	"github.com/mixinnetwork/mobile/exp/app/debug"
+	"github.com/mixinnetwork/mobile/exp/f32"
+	"github.com/mixinnetwork/mobile/exp/gl/glutil"
+	"github.com/mixinnetwork/mobile/gl"
 )
 
 var (
