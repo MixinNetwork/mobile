@@ -37,7 +37,7 @@ public class Seq {
 		try {
 			System.loadLibrary("gojni");
 		} catch (Throwable e) {
-			Log.e("Go", "loadLibrary failed", e);
+			log.info("Go System.loadLibrary failed " + e);
 		}
 		init();
 		Universe.touch();
